@@ -1,0 +1,1 @@
+Get-Content -Wait -Tail 10 -Encoding UTF8 -Path C:\Users\takayuki\AppData\Local\Google\MusicManager\MusicManager.log

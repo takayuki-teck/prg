@@ -1,0 +1,1 @@
+call C:\Users\takayuki\AppData\Local\Programs\Google\MusicManager\MusicManager.exe
