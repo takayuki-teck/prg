@@ -32,9 +32,6 @@ img {
 
 .item img {
   opacity: 1;
-}
-
-.item img {
   height: 300px;
   width: 300px;
   object-fit: cover;
