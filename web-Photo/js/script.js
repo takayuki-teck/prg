@@ -2,8 +2,8 @@
  * 変数
  **************************************/
 let photoCount = 0;
-let minSleep = 500;
-let maxSleep = 500;
+let minSleep = 100;
+let maxSleep = 100;
 let fadeInterval = 10;
 let opacityInterval = 0.01;
 let photoList = [];
