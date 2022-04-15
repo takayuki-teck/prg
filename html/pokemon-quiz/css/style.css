@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 1200px;
+}
+
+.mondai {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block; /*文字だけでなくボタンにカーソルが移動したときに指のアイコンに変わる*/
+    text-align: center;
+    background-color: rgb(155, 204, 65);
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;  
+    border-radius: 5px;/*ボタンの角が丸くなる*/
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(181, 216, 117);
+}
