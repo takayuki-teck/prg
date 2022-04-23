@@ -1,35 +1,35 @@
 @charset "UTF-8";
 
 body {
-    margin: 0;
+    margin: 0; /*画面の領域を全て利用する*/
 }
 
 .wrapper {
-    width: 900px;
-    margin: 0 auto;
+    width: 900px; /*対象の範囲の横幅を指定*/
+    margin: 0 auto; /*中央に表示させる*/
 }
 
 #sample_button {
-    background: #ebd893;
+    background: #ebd893; /*領域がわかるように背景色をつけておく*/
     text-align: center;
 }
 
 .btn {
-    text-decoration: none;
-    color: #333;
+    text-decoration: none; /*リンクのアンダーラインを削除*/
+    color: #333; /*文字の色*/
     background: rgb(93, 234, 166);
-    display: inline-block;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    border-bottom:2px solid rgba(0,0,0,0.2);
+    display: inline-block; /*要素自体は横並びに、要素の中身はblock要素となる*/
+    border-radius: 10px; /*角を丸くする*/
+    padding: 10px; /*ボタンの文字とボタンの輪郭との幅*/
+    margin: 10px; /*ボタンの輪郭から外側の幅*/
+    border-bottom:2px solid rgba(0,0,0,0.2); /*ボタンの下側に影をつける*/
 }
 
-.box:active {
-	transform: translate(0,2px);
-	border-bottom:2px solid rgb(93, 234, 166);;
+.box:active { /*ボタンをクリックした時の動作*/
+	transform: translate(0,2px); /*下側にちょっと動かす*/
+	border-bottom:2px solid rgb(93, 234, 166); /*ボタン下の影を無くす*/
 }
 
-.box:hover {
-    opacity: 0.8;
+.box:hover { /*カーソルがボタン上に来た時の動作*/
+    opacity: 0.8; /*ちょっと透明にする*/
 }
