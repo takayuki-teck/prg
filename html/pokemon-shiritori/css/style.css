@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    margin: 0; /*画面の領域を全て利用する*/
+}
+
+#my-text {
+    border: 1px solid #333;
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+}
+
+ul {
+    padding-left: 0px; /*リスト要素の左側の余白を除外*/
+}
+
+li {
+    list-style-type: none; /*リストのアイコンを削除*/
+}
+
+.wrapper {
+    width: 300px; /*対象の範囲の横幅を指定*/
+    margin: 0 auto; /*中央に表示させる*/
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.title {
+    padding-top: 10px;
+}
